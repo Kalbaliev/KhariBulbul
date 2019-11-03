@@ -335,7 +335,7 @@
 <!-- All Jquery -->
 <!-- ============================================================== -->
 <script src="/assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
 
 <!-- Bootstrap popper Core JavaScript -->
 <script src="/assets/node_modules/popper/popper.min.js"></script>
