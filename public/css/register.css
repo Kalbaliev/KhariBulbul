@@ -1,0 +1,137 @@
+.swal2-container>div[role=dialog]{
+
+    border-radius: 0;
+    border:3px solid #00C292;
+    background: white ;
+    color:white;
+}
+.swal2-confirm{
+
+    width: 200px;
+}
+
+
+.register-image{
+
+
+    float: left;
+    width: 665px;
+    height: 500px;
+    margin-left: 2.5vw;
+
+}
+.register-image img {
+    -webkit-box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.78);
+    -moz-box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.78);
+    box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.78);
+    height: 100%;
+    width: 100%
+}
+
+#submit-register{
+
+
+    background: #00C292;
+    color: white;
+    font-size: 2vw;
+    display: block;
+    position: relative;
+    margin: auto ;
+    width: 38vw;
+    height: 5vw;
+    cursor:pointer;
+    border: none;
+    transition: 1s ease;
+    margin-top: 2.5vw;
+}
+#submit-register:hover{
+
+    transition: 1s ease;
+}
+.form-group{
+
+    margin-bottom: 1vw;
+
+}
+.register-row{
+
+    margin: 0;
+
+}
+
+.price-of-day{
+
+margin-left: 28vw;
+
+}
+.icheck-list li {
+
+    margin-left: 7px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+
+    .card-body{
+
+        padding: 0;
+    }
+    .register-image{
+
+        margin-top: 2vh;
+        margin-left:0 ;
+        scroll-padding: 0;
+        float: left;
+        width: 100%;
+        height: 100vh;
+
+    }
+
+    .register-image img {
+        -webkit-box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.78);
+        -moz-box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.78);
+        box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.78);
+        height: 85%;
+        width: 100%
+    }
+    #submit-register{
+
+
+        background: #00C292;
+        color: white;
+        font-size: 3vh;
+        display: block;
+        position: relative;
+        margin: auto ;
+        width: 100%;
+        height: 8vh;
+        cursor:pointer;
+        border: none;
+        transition: 1s ease;
+        margin-top: 2.5vh;
+
+
+    }
+    .price-of-day{
+        margin-top: 30vw;
+        margin-left: 15vw;
+
+    }
+
+    .phone-no-float{
+
+        float: right;
+    }
+
+    .icheck-list li {
+
+        margin-top: 5vw;
+        margin-left:1vw;
+    }
+    .icheck-list li:nth-child(2) {
+
+        margin-left:1.5vw;
+    }
+}
+

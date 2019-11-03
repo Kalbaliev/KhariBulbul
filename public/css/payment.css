@@ -1,0 +1,34 @@
+.table-responsive{
+
+    padding:0 2vw;
+}
+table{
+   border: 2px solid #343A40;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    .table td,
+    .table th {
+        padding: 3vw 1vw;
+
+    }
+
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        box-sizing: border-box;
+        display: inline-block;
+        min-width: 1.5em;
+        padding: 1vw 1vw;
+        text-align: center;
+        text-decoration: none;
+        cursor: pointer;
+        color: #212529;
+        border: 1px solid #ddd
+    }
+    #example23_info{
+
+        margin-top: 3vw ;
+    }
+}
+
+
+

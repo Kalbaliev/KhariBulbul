@@ -1,0 +1,103 @@
+
+
+
+.user-profile{
+
+    margin-top: 0;
+    padding-top: 1vw;
+}
+
+
+.user-profile .user-pro-body img {
+    width: 6vw;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+
+
+.skin-blue-dark .sidebar-nav > ul > li.active > a {
+    color: #23B46E;
+    border-left: 3px solid #23B46E;
+}
+
+.skin-blue-dark .sidebar-nav > ul > li.active > a i {
+    color: #23B46E;
+}
+
+.sidebar-nav .has-arrow::after {
+    top: 47%;
+}
+
+.sidebar-nav .has-arrow[aria-expanded=true]::after, .sidebar-nav li > .has-arrow.active::after {
+    -webkit-transform: rotate(135deg) translate(0, -50%);
+    -ms-transform: rotate(135deg) translate(0, -50%);
+    -o-transform: rotate(135deg) translate(0, -50%);
+    top: 47%;
+    width: 7px;
+    transform: rotate(135deg) translate(0, -50%);
+}
+
+.sidebar-nav ul li.nav-small-cap {
+
+    padding: 0;
+}
+
+
+
+.sidebar-nav ul li a {
+
+    font-size: 19px;
+}
+
+.sidebar-nav > ul > li > a i {
+
+    font-size: 19px;
+}
+
+
+.badge.badge-pill {
+    padding: .4em 1.2em;
+}
+
+.fixed-layout .scroll-sidebar{
+
+    height: auto;
+}
+
+.sidebar-nav {
+
+    padding-top: 0;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+
+
+
+    .sidebar-nav ul li a {
+
+        font-size: 15px;
+    }
+
+    .sidebar-nav > ul > li > a i {
+
+        font-size: 15px;
+    }
+
+    .user-profile .user-pro-body img {
+        width: 20vw;
+        display: block;
+        margin: 10px auto 10px;
+    }
+
+
+
+    .left-sidebar{
+
+        position: fixed;
+        height: 92%;
+        padding: 0
+
+    }
+}

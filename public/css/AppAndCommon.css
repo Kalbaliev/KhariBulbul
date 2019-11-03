@@ -1,0 +1,272 @@
+/*--------------------*/
+/*---------BODY---------*/
+/*---------------------*/
+.fixed-layout .page-wrapper{
+
+    padding-top:0;
+}
+
+
+/*-----------------------*/
+/*---------NAVBAR--------*/
+/*-----------------------*/
+.navbar-header {
+
+    border-bottom: 1px solid green;
+}
+.forphone{
+
+    display: none;
+}
+.formobilehide{
+
+    display:block;
+}
+
+
+/*Balacalasdiranda zibli cixir ona bax*/
+.topbar .top-navbar .navbar-header {
+
+    line-height: normal;
+}
+
+
+
+/*------------------------*/
+/*------PRELOADER-------*/
+/*--------------------*/
+.preloader {
+
+    background: #2B2B2B;
+}
+.loader {
+    width: 15vw;
+    height: 25vw;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    clear: both;
+    margin-bottom: 1vw
+}
+.logo-image-loader {
+
+    width: 100%;
+    height: 45%;
+
+}
+.logo-image-loader img {
+
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 12vw;
+    height: 12vw;
+
+}
+.logo-text-loader {
+
+    width: 100%;
+    height: 10%;
+
+}
+.logo-text-loader h3 {
+    font-family: Cicek;
+    font-size:50px;
+    color:#c7254e;
+
+    text-align: center;
+}
+.logo-text-loader h3 b {
+    font-family: Cicek;
+    font-size:50px;
+    color: #23B46E;
+}
+.logo-svg-loader {
+    clear: both;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 450px;
+    height: 45%;
+
+}
+@keyframes dash {
+    from {
+        stroke-dashoffset: 350;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+#preloaderSVG {
+    margin-top: 5vw;
+    margin-left: 6vw;
+
+}
+.path {
+    stroke-dasharray: 350;
+    stroke-dashoffset: 100;
+    animation: dash 7s;
+    stroke-width: 1px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+
+/*--------------------------------*/
+/*-------SCROLLL DESIGN-----------*/
+/*---------------------------------*/
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+
+    background-color: #555;
+}
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5;
+}
+body::-webkit-scrollbar-thumb {
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #00C292;
+}
+
+
+
+
+/*------------------------------------------*/
+/*-------page qosanda olan div--------------*/
+/*-----------------------------------------*/
+.general{
+    display: block;
+    position: relative;
+    margin-top: 4.3vw;
+    min-height: 50vw;
+    height: auto;
+    overflow: hidden;
+}
+
+
+/*SELECT E aiddi*/
+.dropdown-menu{
+
+    z-index: 10;
+
+}
+.general  {
+
+    padding-left: 12.5vw;
+}
+.footer{
+    padding-left: 12.5vw;
+
+}
+@media screen and (min-width: 320px) and (max-width: 768px){
+.general  {
+
+    padding-left: 0px;
+}
+    .footer{
+        padding-left: 0;
+
+    }
+
+    /*-------------------------------*/
+    /*-----------PRELOADER-----------*/
+    /*------------------------------*/
+    .loader {
+        width: 50%;
+        height: auto;
+    }
+    .logo-image-loader {
+        width: 100%;
+        height: 45%;
+    }
+    .logo-image-loader img {
+        width: 9vh;
+        height: 9vh;
+    }
+    .logo-text-loader h3 {
+        font-size: 3vh;
+        margin-bottom: 0;
+    }
+    .logo-svg-loader {
+        left:3vh;
+        top:40vh;
+        width: 32vh;
+    }
+
+    /*--------------------*/
+    /*---------BODY---------*/
+    /*---------------------*/
+
+    .fixed-layout .topbar{
+
+        display: none;
+    }
+
+
+    /*-----------------------*/
+    /*---------NAVBAR--------*/
+    /*-----------------------*/
+    .nav-button-special{
+
+        border:1px solid #00C292;
+        color: white;
+        font-size: 4vh;
+        width: 8vh;
+        height: 7vh;
+        text-align: center;
+        display: block;
+        position: fixed;
+        z-index: 100;
+        top:15px;
+        right: 15px;
+    }
+    .forphone{
+
+        display: block;
+    }
+    .formobilehide{
+
+        display:none;
+    }
+
+
+    .changeLang{
+        color: white;
+        font-size: 4vh;
+        width: 8vh;
+        height: 7vh;
+        text-align: center;
+        display: block;
+        position: fixed;
+        z-index: 100;
+        top:15px;
+        right: 15px;
+
+    }
+    /*Mobiel changelang*/
+    .hideLang {
+
+        display:none;
+    }
+
+
+    /*------------------------------------------*/
+    /*-------page qosanda olan div--------------*/
+    /*-----------------------------------------*/
+    .general{
+        display: block;
+        position: relative;
+        margin-top: 4.3vw;
+
+        height: auto;
+        overflow: hidden;
+    }
+
+}
+
+
